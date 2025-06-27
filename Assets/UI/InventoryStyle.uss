@@ -1,0 +1,20 @@
+#inventory-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 4px;
+    column-gap: 4px;
+    padding: 8px;
+    width: auto;
+}
+
+#inventory-slot {
+    width: 64px;
+    height: 64px;
+    background-color: rgb(58, 58, 58);
+    border: 1px solid rgb(102, 102, 102);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

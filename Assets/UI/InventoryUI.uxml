@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/UI/InventoryStyle.uss?fileID=7433441132597879392&amp;guid=952c3bf9355fd3843a0b23b3f12599f9&amp;type=3#InventoryStyle" />
+    <ui:VisualElement name="inventory-grid" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap; align-items: center; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px;">
+        <ui:VisualElement name="inventory-slot" style="flex-grow: 1; background-size: 80% 80%; -unity-background-scale-mode: scale-to-fit;" />
+    </ui:VisualElement>
+</ui:UXML>

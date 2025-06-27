@@ -73,6 +73,10 @@ public class Health : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// String showing the Current Health compared to the Max Health, used for UI
+    /// </summary>
+    /// <returns></returns>
     public string HealthOutOfMax()
     {
         return CurrentHealth.ToString() + "/" + maxHealth.ToString();

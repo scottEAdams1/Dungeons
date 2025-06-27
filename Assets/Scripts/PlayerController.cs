@@ -64,8 +64,6 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     Animator animator;
 
-    Health health;
-
     /// <summary>
     /// The movement input by the user
     /// </summary>
