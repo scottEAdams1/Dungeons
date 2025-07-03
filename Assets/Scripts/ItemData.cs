@@ -22,4 +22,9 @@ public class ItemData : ScriptableObject
     /// The max amount the item can be stacked to in a single slot, default 512
     /// </summary>
     public int maxStack = 512;
+
+    /// <summary>
+    /// The prefab of the object to interact with the scene
+    /// </summary>
+    public GameObject prefab;
 }
